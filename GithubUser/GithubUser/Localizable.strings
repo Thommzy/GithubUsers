@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  GithubUser
+
+  Created by Timothy Obeisun on 9/13/22.
+  
+*/
+
+"homeTitle" = "Users";
+"https" = "https";
+"baseURL" = "api.github.com";
+"usersPath" = "/search/users";
+"q" = "q";
+"page" = "page";
+"lagos" = "lagos";
