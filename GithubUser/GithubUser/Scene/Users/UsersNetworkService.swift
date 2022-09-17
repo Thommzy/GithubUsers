@@ -14,12 +14,7 @@ protocol UsersNetworkServiceProtocol {
 class UsersNetworkService: UsersNetworkServiceProtocol {
     let service: NetworkServiceProtocol = NetworkService()
     
-    func getUser(q: String,
-                 page: Int,
-                 completion: @escaping (Result<User, Error>) -> Void) {
-        service.request(endpoint: .getAllUsers(
-            q: q,
-            page: page
-        ), completion: completion)
+    func getUser(q: String, page: Int, completion: @escaping (Result<User, Error>) -> Void) {
+        service.request(endpoint: .getAllUsers(q: q, page: page), completion: completion)
     }
 }

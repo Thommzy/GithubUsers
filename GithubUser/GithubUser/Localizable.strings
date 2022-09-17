@@ -13,3 +13,11 @@
 "q" = "q";
 "page" = "page";
 "lagos" = "lagos";
+"emptyString" = "";
+"notbookmarked" = "bookmark.circle";
+"bookmarked" = "bookmark.circle.fill";
+"internet" = "Internet";
+"favIcon" = "star.circle";
+"usersIcon" = "person.2.circle";
+"users" = "Users";
+"fav" = "Fav";

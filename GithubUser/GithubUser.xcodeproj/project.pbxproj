@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA1D503728D4F5B100C11051 /* Pagination.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1D503628D4F5B100C11051 /* Pagination.swift */; };
+		FA1D503A28D50E3100C11051 /* ImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1D503928D50E3100C11051 /* ImageManager.swift */; };
+		FA1D503D28D50E9A00C11051 /* ImageManagerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1D503C28D50E9A00C11051 /* ImageManagerError.swift */; };
+		FA1D504028D5753C00C11051 /* UserDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1D503F28D5753C00C11051 /* UserDetailViewController.swift */; };
+		FA1D504228D5882600C11051 /* UserDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1D504128D5882600C11051 /* UserDetailInteractor.swift */; };
+		FA1D504428D5883D00C11051 /* UserDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1D504328D5883D00C11051 /* UserDetailPresenter.swift */; };
+		FA1D504628D5885800C11051 /* UserDetailConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1D504528D5885800C11051 /* UserDetailConfigurator.swift */; };
+		FA1D504828D5886900C11051 /* UserDetailProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1D504728D5886900C11051 /* UserDetailProtocols.swift */; };
+		FA1D504A28D5B77C00C11051 /* UserDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1D504928D5B77C00C11051 /* UserDetailRouter.swift */; };
+		FA1D504C28D5BCA600C11051 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1D504B28D5BCA600C11051 /* BaseViewController.swift */; };
+		FA1D504F28D5BDAF00C11051 /* FavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1D504E28D5BDAF00C11051 /* FavViewController.swift */; };
+		FA1D505128D5C03800C11051 /* FavInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1D505028D5C03800C11051 /* FavInteractor.swift */; };
+		FA1D505328D5C04300C11051 /* FavPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1D505228D5C04300C11051 /* FavPresenter.swift */; };
+		FA1D505528D5C04D00C11051 /* FavRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1D505428D5C04D00C11051 /* FavRouter.swift */; };
+		FA1D505728D5C05800C11051 /* FavProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1D505628D5C05800C11051 /* FavProtocols.swift */; };
+		FA1D505928D5C06400C11051 /* FavConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1D505828D5C06400C11051 /* FavConfigurator.swift */; };
 		FA824A9B28D0CFE600F822D4 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA824A9A28D0CFE600F822D4 /* Localizable.strings */; };
 		FA824A9E28D0D06000F822D4 /* AppString.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA824A9D28D0D06000F822D4 /* AppString.swift */; };
 		FA824AA128D0D0AB00F822D4 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA824AA028D0D0AB00F822D4 /* String+Extension.swift */; };
@@ -27,6 +43,16 @@
 		FAD2CA0E28D0A8D00048D5DF /* GithubUserUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD2CA0D28D0A8D00048D5DF /* GithubUserUITestsLaunchTests.swift */; };
 		FAD2CA1C28D0B90A0048D5DF /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD2CA1B28D0B90A0048D5DF /* UsersViewController.swift */; };
 		FAD2CA2028D0B9940048D5DF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD2CA1F28D0B9940048D5DF /* User.swift */; };
+		FAD8287228D227C10092309A /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD8287128D227C10092309A /* UIView+Extension.swift */; };
+		FAD8287528D229490092309A /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD8287428D229490092309A /* UserTableViewCell.swift */; };
+		FAD8287728D22A110092309A /* UITableViewCell+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD8287628D22A110092309A /* UITableViewCell+Extension.swift */; };
+		FAD8287928D22A5F0092309A /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD8287828D22A5F0092309A /* UITableView+Extension.swift */; };
+		FAD8287C28D2E4850092309A /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD8287B28D2E4850092309A /* PersistenceManager.swift */; };
+		FAD8287F28D2E8960092309A /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = FAD8287E28D2E8960092309A /* Realm */; };
+		FAD8288128D2E8960092309A /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = FAD8288028D2E8960092309A /* RealmSwift */; };
+		FAD8288328D2ED830092309A /* UserRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD8288228D2ED820092309A /* UserRealm.swift */; };
+		FAD8288528D2F1900092309A /* PersistenceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD8288428D2F1900092309A /* PersistenceError.swift */; };
+		FAD8288728D2F2280092309A /* PersistenceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD8288628D2F2280092309A /* PersistenceProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +73,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FA1D503628D4F5B100C11051 /* Pagination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pagination.swift; sourceTree = "<group>"; };
+		FA1D503928D50E3100C11051 /* ImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageManager.swift; sourceTree = "<group>"; };
+		FA1D503C28D50E9A00C11051 /* ImageManagerError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageManagerError.swift; sourceTree = "<group>"; };
+		FA1D503F28D5753C00C11051 /* UserDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailViewController.swift; sourceTree = "<group>"; };
+		FA1D504128D5882600C11051 /* UserDetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailInteractor.swift; sourceTree = "<group>"; };
+		FA1D504328D5883D00C11051 /* UserDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailPresenter.swift; sourceTree = "<group>"; };
+		FA1D504528D5885800C11051 /* UserDetailConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailConfigurator.swift; sourceTree = "<group>"; };
+		FA1D504728D5886900C11051 /* UserDetailProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailProtocols.swift; sourceTree = "<group>"; };
+		FA1D504928D5B77C00C11051 /* UserDetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailRouter.swift; sourceTree = "<group>"; };
+		FA1D504B28D5BCA600C11051 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		FA1D504E28D5BDAF00C11051 /* FavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavViewController.swift; sourceTree = "<group>"; };
+		FA1D505028D5C03800C11051 /* FavInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavInteractor.swift; sourceTree = "<group>"; };
+		FA1D505228D5C04300C11051 /* FavPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavPresenter.swift; sourceTree = "<group>"; };
+		FA1D505428D5C04D00C11051 /* FavRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavRouter.swift; sourceTree = "<group>"; };
+		FA1D505628D5C05800C11051 /* FavProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavProtocols.swift; sourceTree = "<group>"; };
+		FA1D505828D5C06400C11051 /* FavConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavConfigurator.swift; sourceTree = "<group>"; };
 		FA824A9A28D0CFE600F822D4 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		FA824A9D28D0D06000F822D4 /* AppString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppString.swift; sourceTree = "<group>"; };
 		FA824AA028D0D0AB00F822D4 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
@@ -71,6 +113,14 @@
 		FAD2CA0D28D0A8D00048D5DF /* GithubUserUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubUserUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		FAD2CA1B28D0B90A0048D5DF /* UsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
 		FAD2CA1F28D0B9940048D5DF /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		FAD8287128D227C10092309A /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		FAD8287428D229490092309A /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		FAD8287628D22A110092309A /* UITableViewCell+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Extension.swift"; sourceTree = "<group>"; };
+		FAD8287828D22A5F0092309A /* UITableView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
+		FAD8287B28D2E4850092309A /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
+		FAD8288228D2ED820092309A /* UserRealm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRealm.swift; sourceTree = "<group>"; };
+		FAD8288428D2F1900092309A /* PersistenceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceError.swift; sourceTree = "<group>"; };
+		FAD8288628D2F2280092309A /* PersistenceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +128,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAD8288128D2E8960092309A /* RealmSwift in Frameworks */,
+				FAD8287F28D2E8960092309A /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +150,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA1D503528D4F58A00C11051 /* Pagination */ = {
+			isa = PBXGroup;
+			children = (
+				FA1D503628D4F5B100C11051 /* Pagination.swift */,
+			);
+			path = Pagination;
+			sourceTree = "<group>";
+		};
+		FA1D503828D50E2100C11051 /* ImageManager */ = {
+			isa = PBXGroup;
+			children = (
+				FA1D503928D50E3100C11051 /* ImageManager.swift */,
+				FA1D503C28D50E9A00C11051 /* ImageManagerError.swift */,
+			);
+			path = ImageManager;
+			sourceTree = "<group>";
+		};
+		FA1D503E28D5751800C11051 /* UserDetail */ = {
+			isa = PBXGroup;
+			children = (
+				FA1D503F28D5753C00C11051 /* UserDetailViewController.swift */,
+				FA1D504128D5882600C11051 /* UserDetailInteractor.swift */,
+				FA1D504328D5883D00C11051 /* UserDetailPresenter.swift */,
+				FA1D504528D5885800C11051 /* UserDetailConfigurator.swift */,
+				FA1D504728D5886900C11051 /* UserDetailProtocols.swift */,
+				FA1D504928D5B77C00C11051 /* UserDetailRouter.swift */,
+			);
+			path = UserDetail;
+			sourceTree = "<group>";
+		};
+		FA1D504D28D5BD7D00C11051 /* Fav */ = {
+			isa = PBXGroup;
+			children = (
+				FA1D504E28D5BDAF00C11051 /* FavViewController.swift */,
+				FA1D505028D5C03800C11051 /* FavInteractor.swift */,
+				FA1D505228D5C04300C11051 /* FavPresenter.swift */,
+				FA1D505428D5C04D00C11051 /* FavRouter.swift */,
+				FA1D505628D5C05800C11051 /* FavProtocols.swift */,
+				FA1D505828D5C06400C11051 /* FavConfigurator.swift */,
+			);
+			path = Fav;
+			sourceTree = "<group>";
+		};
+		FA1D505A28D5C07500C11051 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				FA1D504B28D5BCA600C11051 /* BaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 		FA824A9C28D0D04E00F822D4 /* AppConfig */ = {
 			isa = PBXGroup;
 			children = (
@@ -109,7 +212,8 @@
 		FA824A9F28D0D08100F822D4 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				FA824AA028D0D0AB00F822D4 /* String+Extension.swift */,
+				FAD8287028D2279F0092309A /* UIKit */,
+				FAD8286F28D2278F0092309A /* Foundation */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -137,6 +241,9 @@
 		FAD2C9E928D0A8CC0048D5DF /* GithubUser */ = {
 			isa = PBXGroup;
 			children = (
+				FA1D503528D4F58A00C11051 /* Pagination */,
+				FAD8287A28D2E4700092309A /* Storage */,
+				FAD8287328D229340092309A /* CustomViews */,
 				FA824A9F28D0D08100F822D4 /* Extensions */,
 				FA824A9C28D0D04E00F822D4 /* AppConfig */,
 				FAD2CA2128D0CEBE0048D5DF /* Networking */,
@@ -186,7 +293,10 @@
 		FAD2CA1D28D0B9500048D5DF /* Scene */ = {
 			isa = PBXGroup;
 			children = (
+				FA1D505A28D5C07500C11051 /* Base */,
 				FAD2CA1A28D0B8EB0048D5DF /* Users */,
+				FA1D504D28D5BD7D00C11051 /* Fav */,
+				FA1D503E28D5751800C11051 /* UserDetail */,
 			);
 			path = Scene;
 			sourceTree = "<group>";
@@ -195,6 +305,7 @@
 			isa = PBXGroup;
 			children = (
 				FAD2CA1F28D0B9940048D5DF /* User.swift */,
+				FAD8288228D2ED820092309A /* UserRealm.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -202,10 +313,47 @@
 		FAD2CA2128D0CEBE0048D5DF /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				FA1D503828D50E2100C11051 /* ImageManager */,
 				FA824AAC28D0D24000F822D4 /* Endpoint.swift */,
 				FA824AAE28D0D6A800F822D4 /* NetworkService.swift */,
 			);
 			path = Networking;
+			sourceTree = "<group>";
+		};
+		FAD8286F28D2278F0092309A /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				FA824AA028D0D0AB00F822D4 /* String+Extension.swift */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		FAD8287028D2279F0092309A /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				FAD8287128D227C10092309A /* UIView+Extension.swift */,
+				FAD8287628D22A110092309A /* UITableViewCell+Extension.swift */,
+				FAD8287828D22A5F0092309A /* UITableView+Extension.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		FAD8287328D229340092309A /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				FAD8287428D229490092309A /* UserTableViewCell.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		FAD8287A28D2E4700092309A /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				FAD8288628D2F2280092309A /* PersistenceProtocol.swift */,
+				FAD8287B28D2E4850092309A /* PersistenceManager.swift */,
+				FAD8288428D2F1900092309A /* PersistenceError.swift */,
+			);
+			path = Storage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,6 +372,10 @@
 			dependencies = (
 			);
 			name = GithubUser;
+			packageProductDependencies = (
+				FAD8287E28D2E8960092309A /* Realm */,
+				FAD8288028D2E8960092309A /* RealmSwift */,
+			);
 			productName = GithubUser;
 			productReference = FAD2C9E728D0A8CC0048D5DF /* GithubUser.app */;
 			productType = "com.apple.product-type.application";
@@ -296,6 +448,9 @@
 				Base,
 			);
 			mainGroup = FAD2C9DE28D0A8CC0048D5DF;
+			packageReferences = (
+				FAD8287D28D2E8960092309A /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = FAD2C9E828D0A8CC0048D5DF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -341,17 +496,41 @@
 			files = (
 				FAD2CA2028D0B9940048D5DF /* User.swift in Sources */,
 				FA824AA728D0D1EE00F822D4 /* UsersInteractor.swift in Sources */,
+				FA1D504028D5753C00C11051 /* UserDetailViewController.swift in Sources */,
+				FA1D504828D5886900C11051 /* UserDetailProtocols.swift in Sources */,
+				FA1D505528D5C04D00C11051 /* FavRouter.swift in Sources */,
+				FA1D504A28D5B77C00C11051 /* UserDetailRouter.swift in Sources */,
 				FA824AA528D0D1DD00F822D4 /* UsersPresenter.swift in Sources */,
+				FA1D503A28D50E3100C11051 /* ImageManager.swift in Sources */,
+				FAD8287228D227C10092309A /* UIView+Extension.swift in Sources */,
+				FAD8287528D229490092309A /* UserTableViewCell.swift in Sources */,
+				FAD8287728D22A110092309A /* UITableViewCell+Extension.swift in Sources */,
+				FA1D503D28D50E9A00C11051 /* ImageManagerError.swift in Sources */,
+				FA1D504228D5882600C11051 /* UserDetailInteractor.swift in Sources */,
+				FA1D505128D5C03800C11051 /* FavInteractor.swift in Sources */,
+				FA1D505328D5C04300C11051 /* FavPresenter.swift in Sources */,
+				FA1D504428D5883D00C11051 /* UserDetailPresenter.swift in Sources */,
+				FA1D505728D5C05800C11051 /* FavProtocols.swift in Sources */,
+				FA1D504C28D5BCA600C11051 /* BaseViewController.swift in Sources */,
 				FA824AA928D0D1FB00F822D4 /* UsersRouter.swift in Sources */,
+				FA1D504628D5885800C11051 /* UserDetailConfigurator.swift in Sources */,
 				FA824A9E28D0D06000F822D4 /* AppString.swift in Sources */,
 				FA824AB128D0E06500F822D4 /* UsersNetworkService.swift in Sources */,
+				FA1D504F28D5BDAF00C11051 /* FavViewController.swift in Sources */,
 				FAD2CA1C28D0B90A0048D5DF /* UsersViewController.swift in Sources */,
+				FAD8288328D2ED830092309A /* UserRealm.swift in Sources */,
 				FA824AA328D0D1CF00F822D4 /* UsersProtocols.swift in Sources */,
+				FAD8287C28D2E4850092309A /* PersistenceManager.swift in Sources */,
+				FAD8287928D22A5F0092309A /* UITableView+Extension.swift in Sources */,
 				FAD2C9EB28D0A8CC0048D5DF /* AppDelegate.swift in Sources */,
+				FA1D503728D4F5B100C11051 /* Pagination.swift in Sources */,
 				FA824AA128D0D0AB00F822D4 /* String+Extension.swift in Sources */,
+				FAD8288528D2F1900092309A /* PersistenceError.swift in Sources */,
 				FA824AAB28D0D21300F822D4 /* UsersConfigurator.swift in Sources */,
 				FA824AAD28D0D24000F822D4 /* Endpoint.swift in Sources */,
+				FAD8288728D2F2280092309A /* PersistenceProtocol.swift in Sources */,
 				FA824AAF28D0D6A800F822D4 /* NetworkService.swift in Sources */,
+				FA1D505928D5C06400C11051 /* FavConfigurator.swift in Sources */,
 				FAD2C9ED28D0A8CC0048D5DF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -686,6 +865,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FAD8287D28D2E8960092309A /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.29.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FAD8287E28D2E8960092309A /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FAD8287D28D2E8960092309A /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		FAD8288028D2E8960092309A /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FAD8287D28D2E8960092309A /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FAD2C9DF28D0A8CC0048D5DF /* Project object */;
 }

@@ -19,4 +19,12 @@ public enum AppString:String {
     case q
     case page
     case lagos
+    case emptyString
+    case notbookmarked
+    case bookmarked
+    case internet
+    case favIcon
+    case usersIcon
+    case users
+    case fav
 }

@@ -28,6 +28,7 @@ struct Item: Codable {
     let nodeID: String?
     let avatarURL: String?
     let gravatarID: String?
+    let isfavourited: Bool? = false
     let url, htmlURL, followersURL: String?
     let followingURL, gistsURL, starredURL: String?
     let subscriptionsURL, organizationsURL, reposURL: String?
