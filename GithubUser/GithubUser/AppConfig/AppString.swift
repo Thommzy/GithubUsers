@@ -27,4 +27,6 @@ public enum AppString:String {
     case usersIcon
     case users
     case fav
+    case favAdded
+    case favRemoved
 }

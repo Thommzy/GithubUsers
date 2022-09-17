@@ -21,3 +21,5 @@
 "usersIcon" = "person.2.circle";
 "users" = "Users";
 "fav" = "Fav";
+"favAdded" = "Added to favourite";
+"favRemoved" = "Removed from favourite";

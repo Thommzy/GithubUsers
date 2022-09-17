@@ -32,6 +32,7 @@ final class UserTableViewCell: UITableViewCell {
     
     lazy var userImageView: UIImageView = {
         let userImageView = UIImageView()
+        userImageView.backgroundColor = .gray
         let image = UIImage(
             systemName: "person.crop.circle",
             withConfiguration:UIImage.SymbolConfiguration(

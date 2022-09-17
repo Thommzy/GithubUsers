@@ -22,12 +22,12 @@ extension UserDetailPresenter: UserDetailPresenterProtocol {
     func didSelectBookMark(isFaved: Bool) {
         guard let item = view.item  else { return }
         interactor.likeUser(user: item, isFaved: isFaved)
-        router.displayBookMarkedAlert(message: "Added to favourite")
+        router.displayBookMarkedAlert(message: AppString.favAdded.localisedValue)
     }
     
     func didDeSelectBookMark(isFaved: Bool) {
         guard let item = view.item  else { return }
         interactor.unLikeUser(user: item, isFaved: isFaved)
-        router.displayBookMarkedAlert(message: "Removed from favourite")
+        router.displayBookMarkedAlert(message: AppString.favRemoved.localisedValue)
     }
 }

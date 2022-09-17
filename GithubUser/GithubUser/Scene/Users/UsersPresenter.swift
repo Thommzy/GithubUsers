@@ -48,6 +48,7 @@ extension UsersPresenter: UserPresenterProtocol {
     func displayError(error: String) {
         router.displayError(error: error)
         self.view.loader.stopAnimating()
+        self.view.spinner.stopAnimating()
     }
     
     func allUsers(item: [Object]) {

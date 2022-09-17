@@ -8,12 +8,6 @@
 import Foundation
 import RealmSwift
 
-// MARK: - UsersRealm
-//class UsersRealm: Object {
-//    @Persisted var id = 0
-//    var items = List<UserRealm>()
-//}
-
 class UserRealm: Object {
     @objc dynamic var id = 0
     @objc dynamic var login: String? = nil
@@ -24,11 +18,5 @@ class UserRealm: Object {
     
     override class func primaryKey() -> String? {
         return "id"
-    }
-}
-
-extension UserRealm {
-    var loginFirstLetter: String {
-        return String(self.login![self.login!.startIndex]).uppercased()
     }
 }

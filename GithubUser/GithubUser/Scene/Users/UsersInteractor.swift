@@ -55,7 +55,7 @@ extension UsersInteractor: UsersInteractorProtocol {
                 self?.presenter.allUsers(item: self?.retrieveDataFromDB() ?? [])
                 break
             case .failure(let error):
-                if !error.localizedDescription.contains(AppString.internet.localisedValue) {
+                if !error.localizedDescription.contains("connection is not currently allowed") {
                     self?.presenter.allUsers(item: self?.retrieveDataFromDB() ?? [])
                 }
                 self?.presenter.displayError(error: error.localizedDescription)

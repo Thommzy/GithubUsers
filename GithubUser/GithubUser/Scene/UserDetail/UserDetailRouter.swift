@@ -17,12 +17,6 @@ class UserDetailRouter {
 
 extension UserDetailRouter: UserDetailRouterProtocol {
     func displayBookMarkedAlert(message: String) {
-        let alertController = UIAlertController(title: AppString.emptyString.localisedValue, message    : message, preferredStyle: .alert)
-        alertController.addAction(UIAlertAction(title: "OK", style: .default) { (action:UIAlertAction) in
-            
-        })
-        DispatchQueue.main.async {
-            self.viewController.present(alertController, animated: true, completion: nil)
-        }
+        self.viewController.customAlert(error: message)
     }
 }
