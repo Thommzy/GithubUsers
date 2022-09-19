@@ -52,7 +52,6 @@
 		FAD8287F28D2E8960092309A /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = FAD8287E28D2E8960092309A /* Realm */; };
 		FAD8288128D2E8960092309A /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = FAD8288028D2E8960092309A /* RealmSwift */; };
 		FAD8288328D2ED830092309A /* UserRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD8288228D2ED820092309A /* UserRealm.swift */; };
-		FAD8288528D2F1900092309A /* PersistenceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD8288428D2F1900092309A /* PersistenceError.swift */; };
 		FAD8288728D2F2280092309A /* PersistenceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD8288628D2F2280092309A /* PersistenceProtocol.swift */; };
 /* End PBXBuildFile section */
 
@@ -121,7 +120,6 @@
 		FAD8287828D22A5F0092309A /* UITableView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
 		FAD8287B28D2E4850092309A /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
 		FAD8288228D2ED820092309A /* UserRealm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRealm.swift; sourceTree = "<group>"; };
-		FAD8288428D2F1900092309A /* PersistenceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceError.swift; sourceTree = "<group>"; };
 		FAD8288628D2F2280092309A /* PersistenceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -354,7 +352,6 @@
 			children = (
 				FAD8288628D2F2280092309A /* PersistenceProtocol.swift */,
 				FAD8287B28D2E4850092309A /* PersistenceManager.swift */,
-				FAD8288428D2F1900092309A /* PersistenceError.swift */,
 			);
 			path = Storage;
 			sourceTree = "<group>";
@@ -529,7 +526,6 @@
 				FAD2C9EB28D0A8CC0048D5DF /* AppDelegate.swift in Sources */,
 				FA1D503728D4F5B100C11051 /* Pagination.swift in Sources */,
 				FA824AA128D0D0AB00F822D4 /* String+Extension.swift in Sources */,
-				FAD8288528D2F1900092309A /* PersistenceError.swift in Sources */,
 				FA824AAB28D0D21300F822D4 /* UsersConfigurator.swift in Sources */,
 				FA824AAD28D0D24000F822D4 /* Endpoint.swift in Sources */,
 				FAD8288728D2F2280092309A /* PersistenceProtocol.swift in Sources */,

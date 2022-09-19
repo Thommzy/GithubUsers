@@ -11,6 +11,5 @@ import RealmSwift
 protocol PersistenceProtocol {
     var instance: Realm { get }
     func saveObject<T>(_ object: T) where T: Object
-    
     func fetchObjects(_ type: Object.Type) -> [Object]?
 }

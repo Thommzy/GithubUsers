@@ -50,13 +50,6 @@ extension UIView {
         }
     }
     
-    func pinToEdges(to view: UIView, constant: CGFloat = 0) -> Constraints {
-        return [
-            leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: constant),
-            trailingAnchor.constraint(equalTo: view.trailingAnchor)
-        ]
-    }
-    
     func constraintsForWidth(_ width: CGFloat) -> Constraints {
         return [
             widthAnchor.constraint(equalToConstant: width),
@@ -68,13 +61,6 @@ extension UIView {
             widthAnchor.constraint(equalToConstant: size.width),
             heightAnchor.constraint(equalToConstant: size.height),
         ]
-    }
-    
-    @discardableResult
-    func pinToEdge(to view: UIView, constant: CGFloat) -> Constraints {
-        let constraints = pinToEdges(to: view, constant: constant)
-        constrain(constraints)
-        return constraints
     }
     
     @discardableResult
